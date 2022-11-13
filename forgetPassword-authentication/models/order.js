@@ -22,16 +22,4 @@ const orderSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('Order', orderSchema);
 
-user: {
-  email: {
-    type: String,
-    required: true
-  },
-  userId: {
-    type: Schema.Types.ObjectId,
-    required: true,
-    ref: 'User'
-  }
-}

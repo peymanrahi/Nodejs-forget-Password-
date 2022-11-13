@@ -36,3 +36,16 @@ products: [
     quantity: { type: Number, required: true }
   }
 ],
+
+products: [
+  {
+    product: { type: Object, required: true },
+    quantity: { type: Number, required: true }
+  }
+],
+products: [
+  {
+    product: { type: Object, required: true },
+    quantity: { type: Number, required: true }
+  }
+],
